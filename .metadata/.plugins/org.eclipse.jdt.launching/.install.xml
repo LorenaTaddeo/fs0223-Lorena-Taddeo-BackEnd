@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
     <entry loc="C:\Users\Mattia\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre" stamp="1687768241308"/>
+    <entry loc="/Users/lorenataddeo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.7.v20230425-1502" stamp="1687768201736"/>
     <entry loc="C:\Users\Mattia\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502" stamp="1687768241316"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home" stamp="1681875365000"/>
+    <entry loc="/Users/lorenataddeo/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.7.v20230425-1502/jre" stamp="1687768201736"/>
 </dirs>
