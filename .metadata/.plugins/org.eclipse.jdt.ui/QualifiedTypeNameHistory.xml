@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="interfaces.Volume"/>
+    <fullyQualifiedTypeName name="interfaces.Play"/>
+    <fullyQualifiedTypeName name="interfaces.Luminosita"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="classes.ElementoMultimediale"/>
+    <fullyQualifiedTypeName name="classes.RegistrazioneAudio"/>
+    <fullyQualifiedTypeName name="classes.Video"/>
+    <fullyQualifiedTypeName name="classes.Immagine"/>
 </qualifiedTypeNameHistroy>
