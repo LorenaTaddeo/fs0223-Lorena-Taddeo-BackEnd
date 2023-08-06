@@ -17,11 +17,13 @@ public class UtenteConfig {
 	@Scope("prototype")
 	public Utente fakeUser() {
 		Faker faker = new Faker(new Locale("it-IT"));
+		String name = faker.name().firstName();
+		String surname = faker.name().lastName();
 		Utente u = new Utente().builder()
-				.username(faker.name().username())
-				.name(faker.name().firstName())
-				.lastname(faker.name().lastName())
-				.email(faker.internet().emailAddress())
+				.username((name + "." + surname).toLowerCase())
+				.name(name)
+				.lastname(surname)
+				.email((name + "." + surname + "@email.com").toLowerCase())
 				.build();
 		return u;
 	}

@@ -36,9 +36,22 @@ public class DispositivoController {
 		return new ResponseEntity<Dispositivo>(dispositivoService.trovaDispositivoId(id), HttpStatus.OK);
 	}
 	
-	@PostMapping
-	public void newDispositivo(@RequestBody Dispositivo dispositivo) {
-		dispositivoService.salvaDispositivo(dispositivo);
+	@PostMapping("/add/laptop")
+	  public ResponseEntity<String> newLaptop() {
+	    dispositivoService.salvaDispositivo( dispositivoService.creaLaptop() );
+	    return new ResponseEntity<String>("Nuovo Laptop aggiunto!", HttpStatus.OK);
+	}
+	
+	@PostMapping("/add/smartphone")
+	  public ResponseEntity<String> newSmartphone() {
+	    dispositivoService.salvaDispositivo( dispositivoService.creaSmartphone() );
+	    return new ResponseEntity<String>("Nuovo Smartphone aggiunto!", HttpStatus.OK);
+	}
+	
+	@PostMapping("/add/tablet")
+	  public ResponseEntity<String> newTablet() {
+	    dispositivoService.salvaDispositivo( dispositivoService.creaTablet() );
+	    return new ResponseEntity<String>("Nuovo Tablet aggiunto!", HttpStatus.OK);
 	}
 	
 	@PutMapping("/{id}")
