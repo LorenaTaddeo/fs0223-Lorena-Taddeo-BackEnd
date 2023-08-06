@@ -16,7 +16,7 @@ public class UtenteRunner implements CommandLineRunner{
 		System.out.println("Utente Runna");
 		
 //		for(int i = 0; i < 10; i++) {
-//			utenteService.creaUtente();
+//			utenteService.salvaUtente( utenteService.creaUtente());
 //		}
 	}
 }
