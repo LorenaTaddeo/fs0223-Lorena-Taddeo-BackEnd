@@ -20,5 +20,5 @@ public class MyExceptionHandler extends ResponseEntityExceptionHandler {
 	@ExceptionHandler(EntityExistsException.class)
 	public ResponseEntity<String> manageEntityExistsException(EntityExistsException e) {
 		return new ResponseEntity<String>(e.getMessage(), HttpStatus.FOUND);
-	}	
+	}
 }
